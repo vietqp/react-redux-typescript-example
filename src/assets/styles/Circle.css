@@ -1,0 +1,17 @@
+.circle {
+    background-color: #282c34; /* Background color of the circle */
+    border-radius: 50%;   /* This makes the div a circle */
+    border: 1px solid white;
+    display: flex;             /* Use Flexbox to center content */
+    align-items: center;       /* Center content vertically */
+    justify-content: center;   /* Center content horizontally */
+    color: darkred;              /* Text color */
+    font-size: 24px;           /* Font size for the number */
+    position: absolute;
+    cursor: pointer;
+    transition: opacity 1s; /* Thêm hiệu ứng mờ dần */
+}
+
+.circle.fadeOut {
+    opacity: 0; /* Khi lớp fadeOut được thêm vào, opacity sẽ trở thành 0 */
+}
